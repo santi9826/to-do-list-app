@@ -11,28 +11,29 @@
         <header>
             <h1>To-do List</h1>
         </header>
-    
-        <input type="text" id="taskbox" placeholder="What do you need to do?">
-        <button type="submit" id="submit">Add</button>
-
+        <div class="containerText">
+            <input type="text" id="taskbox" placeholder="What do you need to do?">
+            <button type="submit" id="submit" onclick="task()">Add</button>
+        </div>
         <div class="taskbar">
-            <div id="all">All</div>
-            <div id="active">Active</div>
-            <div id="completed">Completed</div>
+            <ul>
+                <li><a href="" target=_self><div id="all">All</div></a></li>
+                <li><a href="" target=_self><div id="active">Active</div></a></li>
+                <li><a href="" target=_self><div id="completed">Completed</div></a></li>
+            </ul>
         </div>
         <div class="taskcontainer">
-            <div class="tasklist" id="task1"></div>
-            <div class="tasklist" id="task2"></div>
-            <div class="tasklist" id="task3"></div>
-            <div class="tasklist" id="task4"></div>
-            <div class="tasklist" id="task5"></div>
-            <div class="tasklist" id="task6"></div>
-            <div class="tasklist" id="task7"></div>
-            <div class="tasklist" id="task8"></div>
-            <div class="tasklist" id="task9"></div>
-            <div class="tasklist" id="task10"></div>
+            <div class="tasklist"><p id="task1"></p></div>
+            <div class="tasklist"><p id="task2"></p></div>
+            <div class="tasklist"><p id="task3"></p></div>
+            <div class="tasklist"><p id="task4"></p></div>
+            <div class="tasklist"><p id="task5"></p></div>
+            <div class="tasklist"><p id="task6"></p></div>
+            <div class="tasklist"><p id="task7"></p></div>
+            <div class="tasklist"><p id="task8"></p></div>
+            <div class="tasklist"><p id="task9"></p></div>
+            <div class="tasklist"><p id="task10"></p></div>
             <div class="tasklist">
-
             </div>
         </div>
 
