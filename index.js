@@ -15,8 +15,24 @@ const task9 = document.getElementById("task9");
 const task10 = document.getElementById("task10");
 
 
+
+
 function task(){
-   task1.textContent = `${taskbox.value}`;
-   
+    tasks.push(taskbox.value);
+    container = [tasks]
+    for(let i = 0; i <= tasks.length; i++){
+        console.log(tasks[0]);
+    }
+    
+
 
 }
+
+
+
+
+
+
+
+
+
